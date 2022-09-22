@@ -71,7 +71,7 @@ function Data() {
     useEffect(() => {
         fetchData()
 
-        const pollData=setInterval(fetchData,3000);
+        const pollData=setInterval(fetchData,10000);
 
       return () => {
         console.log('clean up')
@@ -79,7 +79,7 @@ function Data() {
         setPolling(0)
         setPollStop((prev)=>!prev)
       }
-    }, [])
+  }, [])
 
 
 
