@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import {useState,useEffect} from 'react';
-import Data from './Data'
+// import {useState} from 'react';
+// import Data from './Data'
 const Container=styled.div`
   margin:0 auto;
   width: min(95%,70rem);
@@ -20,7 +20,7 @@ function Dashboard() {
 
     return (
     <Container>
-
+            <h1>DashBoard</h1>
 
 
 
